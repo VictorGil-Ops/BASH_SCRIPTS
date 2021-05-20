@@ -1,6 +1,6 @@
 ﻿#!/bin/bash
 
-## - Implement with crontab -
+##Implement with crontab -
 
 PURGEDAYS=4
 DIASCOMPRESS=0
