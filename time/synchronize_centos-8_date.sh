@@ -1,5 +1,7 @@
 ﻿#!/bin/bash
 
+## este script sincroniza Centos con la hora de Windows
+
 # install chrony
 echo "Instalando chrony.."
 yum udpdate && yum install chrony -y 
