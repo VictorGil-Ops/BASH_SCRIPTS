@@ -1,6 +1,7 @@
 ﻿#!/bin/bash
 
 ## este script sincroniza Centos con la hora de Windows
+## es posible cambiar el pool ntp https://www.pool.ntp.org/zone/es
 
 # install chrony
 echo "Instalando chrony.."
@@ -20,4 +21,3 @@ echo "time.windows.com" > /etc/chrony.conf
 systemctl restart chronyd
 
 echo "Mostrando fecha $(date)"
-
