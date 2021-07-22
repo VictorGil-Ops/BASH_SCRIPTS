@@ -5,7 +5,7 @@
 
 # install chrony
 echo "Instalando chrony.."
-yum udpdate && yum install chrony -y 
+yum update && yum install chrony -y 
 
 # start and enabled service
 
