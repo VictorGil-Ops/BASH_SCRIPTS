@@ -14,7 +14,7 @@ systemctl enable chronyd
 
 # Add time server (Microsoft)
 
-echo "time.windows.com" > /etc/chrony.conf
+echo "time.windows.com" >> /etc/chrony.conf
 
 # restart chrony
 
